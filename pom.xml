@@ -7,6 +7,62 @@
   <version>2.0</version>
   <packaging>kjar</packaging>
   <name>com.Billcom.ChangeOfferOTN</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.billcom.ws.OMT</groupId>
+      <artifactId>WsScala</artifactId>
+      <version>1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.billcom.ws.FaFClientAPc</groupId>
+      <artifactId>FaFHandlingApc</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.otn.ws.client</groupId>
+      <artifactId>bsBuyOption</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.otn.ws.client</groupId>
+      <artifactId>INBuyOption</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>otn.ws</groupId>
+      <artifactId>wsportal.client</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.billcom.ws</groupId>
+      <artifactId>PBI_CMS.client</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.billcom.ws</groupId>
+      <artifactId>PBI_CMS_APC.client</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.changeOffer.dataObj</groupId>
+      <artifactId>migration</artifactId>
+      <version>2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.billcom</groupId>
+      <artifactId>ChangeOfferWorkItemHandlers</artifactId>
+      <version>4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>

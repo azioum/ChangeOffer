@@ -12,9 +12,9 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
+            <identifier>new identifyMigrationCategory.IdentifyMigrationCategoryWorkItemHandler()</identifier>
             <parameters/>
-            <name>Log</name>
+            <name>identifyMigrationCategory</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
@@ -36,9 +36,33 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
+            <identifier>new prepareMigration.PrepareMigrationWorkItemHandler()</identifier>
+            <parameters/>
+            <name>prepareMigration</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler(classLoader)</identifier>
             <parameters/>
             <name>Rest</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new identifyMigrationType.IdentifyMigrationTypeWorkItemHandler()</identifier>
+            <parameters/>
+            <name>identifyMigrationType</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new hasPending.HasPendingWorkitem()</identifier>
+            <parameters/>
+            <name>hasPending</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new validateAccelerationFees.ValidateAccelerationFeesWorkItemHandler()</identifier>
+            <parameters/>
+            <name>validateAccelerationFees</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
